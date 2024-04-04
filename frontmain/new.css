@@ -1,0 +1,1225 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Manrope', sans-serif;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  .row {
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+  
+  .container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+  }
+  @media (min-width: 576px) {
+    .container {
+      width: 540px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .container {
+      width: 720px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .container {
+      width: 960px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .container {
+      width: 1140px;
+    }
+  }
+  
+  @media (min-width: 1400px) {
+    .container {
+      width: 1320px;
+    }
+  }
+  .header
+{
+  padding: 20px 0px;
+  background: #fff;
+}
+.first-pg{
+
+    background-image: url(https://www.novactech.com/_next/image?url=%2Fimages%2Fstatim%2Fstatim-banner.png&w=1200&q=100);
+    background-size: cover;
+    background-position: center;
+    height: 780px;
+    display: flex;
+    align-items: center;
+  }
+ 
+  .first-pg .first-area .first-left {
+    display: grid;
+    align-items: center;
+  }
+  
+  .first-pg .first-area .first-left h2 {
+    font-size: 45px;
+    color: #ffffff;
+    font-weight: 500;
+    width: 38%;
+    padding-bottom: 20px;
+    line-height: 50px;
+  }
+  
+  .first-pg .first-area .first-left p {
+    font-size: 18px;
+    color: #fff;
+    width: 35%;
+    padding-bottom: 20px;
+    line-height: 32px;
+  }
+  
+  .first-pg .first-area .btn {
+    display: inline-block;
+    padding: 14px 40px;
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 0px;
+    text-decoration: none;
+    width: 15%;
+    margin: auto;
+  }
+  
+  .first-pg .first-area .btn-default {
+    color: #fff;
+    background: linear-gradient(70deg, #E3794D -20%, #F39759);
+    border: none;
+  }
+  
+  .first-pg .first-area span {
+    background: -webkit-linear-gradient(50deg, #E47B4E 20%, #FFFFFF 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .session {
+    background: #fff;
+    padding: 90px 0;
+  }
+  
+  .session .session-area {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  
+  .session .session-area .session-right h2 {
+    font-size: 38px;
+    line-height: 50px;
+    padding-bottom: 30px;
+    font-weight: 500;
+  }
+  
+  
+  .session .session-area .session-right p {
+    font-size: 18px;
+    line-height: 30px;
+    width: 80%;
+  }
+  
+  .session .session-area .session-right span {
+    background: -webkit-linear-gradient(50deg, #E47B4E 20%, #010224 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .session .session-area .session-left img{
+    width: 90%;
+    height: auto;
+  }
+
+  .service {
+    background: #180f02;
+    padding: 90px 0 180px;
+  }
+  
+  .service .service-title h2 {
+    font-size: 40px;
+    background: -webkit-linear-gradient(50deg, #E47B4E 0%, #FFFFFF 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 500;
+    padding-bottom: 20px;
+  }
+  
+  .service .service-title p {
+    font-size: 18px;
+    color: #ffffff;
+    width: 80%;
+    font-weight: 500;
+    line-height: 28px;
+  }
+  
+   .service .service-area {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    gap: 20%;
+  }
+  
+  .service .service-area h4 {
+    color: #F5ECEC;
+    font-size: 28px;
+    padding-bottom: 20px;
+  }
+  
+  .service .service-area p {
+    color: #fff;
+    font-size: 18px;
+    width: 82%;
+    line-height: 28px;
+    padding-bottom: 40px;
+  }
+  
+  .service .service-area .service-left {
+    border-bottom: 0.5px solid #fff;
+    margin-top: 70px;
+  }
+  
+  .service .service-area .service-right {
+    border-bottom: 0.5px solid #fff;
+    margin-top: 70px;
+  }  
+
+  .novac {
+    background: #EAECF0;
+    padding: 90px 0 180px;
+  }
+
+  .novac .novac-area {
+    display: grid;
+    grid-template-columns: 35% 65%;
+  }
+  
+  .novac .novac-area .novac-left h2 {
+    font-size: 38px;
+    line-height: 50px;
+    padding-bottom: 30px;
+    color: #00011f;
+  }
+  
+  
+  .novac .novac-area .novac-left p {
+    font-size: 18px;
+    line-height: 30px;
+    width: 100%;
+  }
+  
+  .novac .novac-area .novac-right {
+    display: flex;
+  
+  }
+  
+  .novac .novac-area .novac-right .novac-cont.w1 {
+    margin-top: 110px;
+    padding: 0px 10px;
+  }
+  
+  .novac .novac-area .novac-right .novac-cont.w2 {
+    margin-top: 10px;
+    padding: 0px 10px;
+  }
+  
+  .novac .novac-area .novac-right .novac-cont.w3 {
+    margin-top: 100px;
+    padding: 0px 10px;
+  }
+  
+  .novac .novac-area .novac-right .novac-sec {
+    padding: 25px 25px;
+    background: #ffffff;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 30px;
+    width: 260px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .novac .novac-area .novac-right .novac-cont p {
+    font-size: 18px;
+    padding-top: 20px;
+  }
+  
+  .novac .novac-area .novac-right .novac-recw {
+    text-align: center;
+    position: relative;
+    top: -25%;
+    left: 40px;
+  }
+  
+  .novac-choose .novac-area .novac-right .novac-reco {
+    text-align: center;
+    margin-right: 85px;
+  }
+  
+
+  .talk-btn {
+    padding: 50px 0px;
+    background: #1A0D00;
+  }
+  
+  .talk-btn h2 {
+    font-size: 34px;
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+    padding-bottom: 30px;
+  }
+  
+  .talk-btn .btn {
+    display: inline-block;
+    padding: 14px 40px;
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    /* border: 1px solid transparent; */
+    border-radius: 0px;
+    text-decoration: none;
+    width: 25%;
+    margin: auto;
+  }
+  
+  .talk-btn .btn-default {
+    color: #fff;
+    background: linear-gradient(70deg, #E3794D -20%, #F39759);
+    border: none;
+  }
+
+  .talk-btn .talk-btn-area {
+    text-align: center;
+  }
+
+  .learn {
+    background: #fff;
+    padding: 90px 0;
+  }
+  
+  .learn .learn-area {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  
+  .learn .learn-area .learn-left p {
+    font-size: 18px;
+    line-height: 35px;
+    padding-bottom: 10px;
+    font-family: 600;
+    width: 88%;
+  }
+  
+  .learn .learn-area .learn-left p.txt {
+    font-size: 18px;
+    line-height: 35px;
+    padding-bottom: 30px;
+  }
+  
+  .learn .learn-area .learn-right p {
+    font-size: 18px;
+    line-height: 30px;
+    width: 80%;
+  }
+
+  .learn .learn-area .learn-right img{
+    width: 90%;
+    height: auto;
+    /* margin-left: 50px; */
+  }
+
+  .ec-form-section {
+
+    background-image: url(https://experience.novactech.in/e-camp/assets/img/novac_ec/form-banner.svg);
+    background-size: cover;
+    background-position: center;
+    height: 780px;
+  }
+  
+   .ec-form-section .form-sec {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    position: relative;
+  }
+  
+  .ec-form-section .form-sec h3 {
+    color: #fff;
+    font-size: 50px;
+    padding: 30px;
+    font-weight: 400;
+    line-height: 70px;
+  }
+  
+  .ec-form-section .form-sec .form-right {
+    background-color: #ffffff12;
+    margin: 50px 0px;
+  }
+  
+  .ec-form-section .form-sec .form-right p {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 35px;
+    margin: auto;
+    width: 70%;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+  
+  .ec-form-section ::placeholder {
+    color: #fff;
+  }
+  
+  .ec-form-section option {
+    color: #000;
+    background-color: #66594e;
+  }
+  
+  
+  
+  .ec-form-section .form-sec .fe-sec {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+  }
+  
+  .ec-form-section .form-sec .fe-sec .form-group .form-control {
+    background-color: rgba(255, 255, 255, 0.23);
+    border-color: rgba(255, 255, 255, 0.23);
+    border-bottom: 1px solid #E68A3E;
+    color: #fff;
+  }
+  
+  .ec-form-section .form-sec .fe-sec .form-group .form-control {
+    height: 48px !important;
+    border-radius: 0;
+    font-size: 14px;
+    padding-left: 15px;
+  }
+  
+  .ec-form-section .form-sec .fe-sec .form-group .form-control {
+    display: block;
+    width: 100%;
+    line-height: 1.5;
+  
+  }
+  
+  .ec-form-section .form-sec .fe-sec .form-group .form-control:focus {
+    border-color: #E68A3E;
+    outline: 0;
+  }
+  
+  .ec-form-section .form-sec .f-form .fe-sec {
+    padding: 12px 45px;
+  }
+  
+  .ec-form-section .form-sec .fe-sec.cn {
+    display: block;
+    text-align: center;
+  }
+  
+  .ec-form-section .form-sec .form-left {
+    display: grid;
+    align-items: center;
+  }
+
+  .ec-form-section .form-sec .form-group select.form-input {
+    background-image: url(../img/icons/Expand_down_light.svg);
+    background-repeat: no-repeat;
+    background-position: 98%;
+    background-size: 20px;
+    -webkit-appearance: none;
+    padding-right: 27px;
+  }
+  
+  
+  .ec-form-section .form-sec .form-check-inline .ch-lbl {
+    font-size: 13px;
+    color: #fff;
+  }
+  
+  .ec-form-section .form-sec .t-button {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .ec-form-section .form-sec .btn {
+    display: inline-block;
+    padding: 14px 40px;
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border-radius: 0px;
+    text-decoration: none;
+    width: 75%;
+    margin: auto;
+  }
+  
+  .ec-form-section .btn-default {
+    color: #fff;
+    background-color: #E47B4E;
+    border: none;
+  }
+
+
+  .copy-right-sec {
+    padding: 20px 0px;
+    background: #1B0D02;
+  }
+  
+  .copy-right-sec .copy-right {
+    text-align: center;
+  }
+  
+  .copy-right-sec .copy-right p {
+    font-size: 14px;
+    color: #fff;
+  }
+
+
+  @media(max-width: 767px) {
+
+    header {
+      background: #fff;
+      padding: 20px 15px;
+    }
+  
+    .first-pg {
+      background-image: url(https://experience.novactech.in/e-camp/assets/img/novac_ec/ec-mob-banner.jpg);
+      background-size: cover;
+      background-position: center;
+      height: 500px;
+      display: flex;
+      align-items: flex-end;
+    }
+  
+    .first-pg .first-area .first-left h2 {
+      font-size: 24px;
+      color: #fff;
+      font-weight: 500;
+      width: 100%;
+      padding-bottom: 20px;
+      line-height: 40px;
+    }
+  
+    .first-pg .first-area .first-left p {
+      font-size: 16px;
+      color: #fff;
+      width: 100%;
+      padding-bottom: 20px;
+      line-height: 32px;
+      display: none;
+    }
+  
+    .first-pg .first-area .btn {
+      display: inline-block;
+      padding: 14px 40px;
+      margin-bottom: 0;
+      font-size: 16px;
+      font-weight: 400;
+  
+      width: 100%;
+      margin: auto;
+    }
+  
+    .first-pg .first-area {
+      padding: 0px 15px;
+      margin-bottom: 30px;
+    }
+  
+    .first-pg .first-area .first-left {
+      display: grid;
+      align-items: center;
+      display: none;
+    }
+  
+  
+    .talk-btn.mob {
+      display: block;
+    }
+  
+    .talk-btn.mob span {
+      background: -webkit-linear-gradient(50deg, #E47B4E 20%, #FFFFFF 80%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  
+    .session {
+      background: #fff;
+      padding: 50px 0;
+    }
+  
+    .session .session-area {
+      display: block;
+      padding: 0px 15px;
+    }
+  
+    .session .session-area .session-left img {
+      width: 100%;
+    }
+  
+    .session .session-area .session-right h2 {
+      font-size: 24px;
+      line-height: 36px;
+      padding-bottom: 15px;
+      padding-top: 15px;
+    }
+  
+    .session .session-area .session-right p {
+      font-size: 16px;
+      line-height: 30px;
+      width: 100%;
+    }
+
+    .service {
+      background: #140a01;
+      padding: 50px 0 80px;
+    }
+  
+    .service .service-title {
+      padding: 0px 15px;
+    }
+  
+    .service .service-title h2 {
+      font-size: 30px;
+      color: #E3794D;
+      font-weight: 500;
+      text-align: center;
+      padding-bottom: 20px;
+    }
+  
+    .service .service-title p {
+      font-size: 16px;
+      color: #ffffff;
+      width: 100%;
+      font-weight: 500;
+      line-height: 28px;
+      text-align: center;
+    }
+  
+    .service .service-area {
+      display: block;
+      padding: 0px 15px;
+    }
+  
+    .service .service-area .service-left {
+      border-bottom: 0.5px solid #fff;
+      margin-top: 30px;
+      text-align: center;
+    }
+  
+    .service .service-area p {
+      color: #fff;
+      font-size: 16px;
+      width: 100%;
+      line-height: 28px;
+      padding-bottom: 30px;
+    }
+  
+    .service .service-area h4 {
+      color: #F5ECEC;
+      font-size: 22px;
+      padding-bottom: 20px;
+    }
+  
+    .service .service-area .service-right {
+      border-bottom: 0.5px solid #fff;
+      margin-top: 30px;
+      text-align: center;
+    }
+
+    .novac {
+      background: #EAECF0;
+      padding: 50px 0 50px;
+    }
+  
+    .novac .novac-area {
+      display: block;
+      grid-template-columns: 30% 70%;
+      padding: 0px 15px;
+    }
+  
+    .novac .novac-area .novac-left h2 {
+      font-size: 30px;
+      line-height: 40px;
+      padding-bottom: 15px;
+      color: #010224;
+    }
+  
+    .novac .novac-area .novac-left p {
+      font-size: 16px;
+      line-height: 30px;
+      width: 100%;
+    }
+  
+    .novac .novac-area .novac-right {
+      display: block;
+    }
+  
+    .novac .novac-area .novac-right .novac-cont.w1 {
+      margin-top: 20px;
+      padding: 0px 0px;
+    }
+  
+    .novac .novac-area .novac-right .novac-sec {
+      padding: 25px 25px;
+      background: #ffffff;
+      border-radius: 10px;
+      text-align: center;
+      margin-bottom: 30px;
+      width: 100%;
+      height: 250px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .novac .novac-area .novac-right .novac-cont.w2 {
+      padding: 0px 0px;
+    }
+  
+    .novac .novac-area .novac-right .novac-cont.w3 {
+      margin-top: 30px;
+      padding: 0px 0px;
+    }
+  
+    .novac .novac-area .novac-right .novac-recw {
+      display: none;
+    }
+  
+    .novac .novac-area .novac-right .novac-reco {
+      display: none;
+    }
+
+    .talk-btn h2 {
+      font-size: 24px;
+      color: #fff;
+      line-height: 40px;
+      text-align: center;
+      font-weight: 400;
+      padding-bottom: 31px;
+    }
+  
+    .talk-btn .btn {
+      display: inline-block;
+      padding: 14px 40px;
+      margin-bottom: 0;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 1.42857143;
+      text-align: center;
+      /* border: 1px solid transparent; */
+      border-radius: 0px;
+      text-decoration: none;
+      width: 65%;
+      margin: auto;
+    }
+  
+    .talk-btn .talk-title {
+      padding: 0px 15px;
+    }
+  
+  
+    .learn {
+      background: #fff;
+      padding: 50px 0;
+    }
+  
+    .learn .learn-area {
+      display: block;
+      padding: 0px 15px;
+    }
+  
+    .learnn .learn-area .learn-left p {
+      font-size: 16px;
+      line-height: 32px;
+      padding-bottom: 10px;
+      font-family: 600;
+      width: 100%;
+    }
+  
+    .learn .learn-area .learn-left p.txt {
+      font-size: 16px;
+      line-height: 30px;
+      padding-bottom: 30px;
+    }
+  
+    .learn .learn-area .learn-right img {
+      width: 100%;
+    }
+  .ec-form-section {
+      background-image: url(https://experience.novactech.in/e-camp/assets/img/novac_ec/form-banner.svg);
+      background-size: cover;
+      background-position: center;
+      height: auto;
+      padding: 15px 0px;
+    }
+  
+    .ec-form-section .form-sec {
+      display: block;
+      text-align: center;
+  
+    }
+  
+    .ec-form-section .form-sec h3 {
+      color: #fff;
+      font-size: 24px;
+      padding: 15px;
+      font-weight: 400;
+      line-height: 50px;
+    }
+  
+    .ec-form-section .form-sec .form-right {
+      background-color: #ffffff12;
+      margin: 20px 0px;
+    }
+  
+    .ec-form-section .form-sec .form-right p {
+      color: #fff;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 32px;
+      margin: auto;
+      width: 85%;
+      text-align: center;
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+  
+    .ec-form-section .form-sec .fe-sec {
+      display: block;
+      grid-template-columns: auto auto;
+      gap: 20px;
+    }
+  
+    .ec-form-section .form-sec .fe-sec .form-group {
+      margin-bottom: 20px;
+    }
+  
+    .ec-form-section .form-sec .f-form .fe-sec {
+      padding: 0px 20px;
+    }
+  
+    .ec-form-section .form-sec .btn {
+      display: inline-block;
+      padding: 14px 40px;
+      margin-bottom: 0;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 1.42857143;
+      text-align: center;
+  
+      /* border: 1px solid transparent; */
+      border-radius: 0px;
+      text-decoration: none;
+      width: 75%;
+      margin: auto;
+    }
+  
+    .ec-form-section .form-sec .form-check-inline {
+      padding-bottom: 0px;
+    }
+  
+    .ec-form-section .form-sec .t-button {
+      text-align: center;
+      margin-bottom: 30px;
+      padding: 30px 0px;
+    }
+  }
+
+  @media(min-width: 768px) {
+    .talk-btn.mob {
+      display: none;
+    }
+  }
+
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .first-pg .first-area .first-left h2 {
+      font-size: 24px;
+      color: #fff;
+      font-weight: 500;
+      width: 50%;
+      padding-bottom: 20px;
+      line-height: 40px;
+    }
+  
+    .first-pg .first-area .first-left p {
+      font-size: 16px;
+      color: #fff;
+      width: 50%;
+      padding-bottom: 20px;
+      line-height: 32px;
+    }
+  
+    .first-pg .first-area .btn {
+      display: inline-block;
+      padding: 14px 40px;
+      margin-bottom: 0;
+      font-size: 16px;
+  
+      width: 30%;
+      margin: auto;
+    }
+  
+    .session .session-area .session-left img {
+      width: 100%;
+    }
+  
+    .session .session-area .session-right {
+      padding: 0px 16px;
+    }
+  
+    .session .session-area .session-right h2 {
+      font-size: 30px;
+      line-height: 40px;
+      padding-bottom: 16px;
+    }
+  
+    .session .session-area .session-right p {
+      font-size: 16px;
+      line-height: 28px;
+      width: 100%;
+    }
+  
+    .service {
+      background: #0A0501;
+      padding: 50px 0 80px;
+    }
+  
+    .service .service-title h2 {
+      font-size: 34px;
+      color: #E3794D;
+      font-weight: 500;
+      padding-bottom: 20px;
+    }
+  
+    .service .service-title p {
+      font-size: 16px;
+      color: #ffffff;
+      width: 80%;
+      font-weight: 500;
+      line-height: 28px;
+    }
+  
+    .service .service-area .service-left {
+      border-bottom: 0.5px solid #fff;
+      margin-top: 30px;
+    }
+  
+    .our-service .os-area .service-right {
+      border-bottom: 0.5px solid #fff;
+      margin-top: 30px;
+    }
+  
+    .service .service-area h4 {
+      color: #F5ECEC;
+      font-size: 24px;
+      padding-bottom: 15px;
+    }
+  
+    .service .service-area p {
+      color: #fff;
+      font-size: 16px;
+      width: 100%;
+      line-height: 26px;
+      padding-bottom: 30px;
+    }
+  
+    .novac {
+      background: #EAECF0;
+      padding: 50px 0 80px;
+    }
+  
+    .novac .novac-area .novac-left h2 {
+      font-size: 30px;
+      line-height: 40px;
+      padding-bottom: 20px;
+      color: #010224;
+    }
+  
+    .novac .novac-area {
+      display: block;
+  
+    }
+  
+    .why-choose .w-area .w-right {
+      display: flex;
+      margin-top: 50px;
+    }
+  
+    .novac .novac-area .novac-right .novac-sec {
+      padding: 25px 25px;
+      background: #ffffff;
+      border-radius: 10px;
+      text-align: center;
+      margin-bottom: 30px;
+      width: 220px;
+      height: 250px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .novac .novac-area .novac-right .novac-cont p {
+      font-size: 16px;
+      padding-top: 20px;
+      line-height: 24px;
+    }
+  
+    .talk-btn h2 {
+      font-size: 28px;
+      color: #fff;
+      text-align: center;
+      font-weight: 400;
+      padding-bottom: 20px;
+    }
+  
+    .talk-btn .btn {
+      display: inline-block;
+      padding: 14px 40px;
+      margin-bottom: 0;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 1.42857143;
+      text-align: center;
+  
+      /* border: 1px solid transparent; */
+      border-radius: 0px;
+      text-decoration: none;
+      width: 25%;
+      margin: auto;
+    }
+    .learn {
+      background: #fff;
+      padding: 50px 0;
+    }
+  
+    .learn .learn-area .learn-left p {
+      font-size: 16px;
+      line-height: 32px;
+      padding-bottom: 10px;
+      font-family: 600;
+      width: 90%;
+    }
+  
+    .learn .learn-area .learn-right img {
+      width: 100%;
+    }
+  
+    .learn .learn-area .learn-left p.txt {
+      font-size: 16px;
+      line-height: 30px;
+      padding-bottom: 30px;
+    }
+  
+    .ec-form-section .form-sec h3 {
+      color: #fff;
+      font-size: 32px;
+      padding: 16px;
+      font-weight: 400;
+      line-height: 50px;
+    }
+  
+    .ec-form-section .form-sec .form-right p {
+      color: #fff;
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 30px;
+      margin: auto;
+      width: 70%;
+      text-align: center;
+      padding-top: 20px;
+    }
+  
+    .ec-form-section .form-sec .f-form .fe-sec {
+      padding: 12px 16px;
+    }
+  }
+
+  @media (min-width: 1024px) and (max-width: 1200px) {
+
+    .first-pg .first-area .first-left h2 {
+      font-size: 32px;
+      color: #fff;
+      font-weight: 500;
+      width: 50%;
+      padding-bottom: 10px;
+      line-height: 50px;
+    }
+  
+    .first-pg .first-area .btn {
+      display: inline-block;
+      padding: 14px 40px;
+      margin-bottom: 0;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 1.42857143;
+      text-align: center;
+      border-radius: 0px;
+      text-decoration: none;
+      width: 25%;
+      margin: auto;
+    }
+  
+    .session {
+      background: #fff;
+      padding: 50px 0;
+    }
+  
+    .session .session-area .session-left img {
+      width: 100%;
+    }
+  
+    .session .session-area .session-right {
+      padding: 0px 16px;
+    }
+  
+    .session .session-area .session-right h2 {
+      font-size: 32px;
+      line-height: 44px;
+      padding-bottom: 10px;
+    }
+  
+    .session .session-area .session-right p {
+      font-size: 18px;
+      line-height: 30px;
+      width: 100%;
+    }
+  
+  
+    .service {
+      background: #0A0501;
+      padding: 50px 0 80px;
+    }
+    
+    
+    
+    .novac .novac-area {
+      display: block;
+  
+    }
+  
+    .novac .novac-area .novac-right {
+      display: flex;
+      margin-top: 50px;
+      justify-content: center;
+    }
+  
+    .novac {
+      background: #EAECF0;
+      padding: 50px 0 80px;
+    }
+
+    .learn {
+      background: #fff;
+      padding: 50px 0;
+    }
+  
+    .learn .learn-area .learn-right img {
+      width: 100%;
+    }
+  
+    .ec-form-section .form-sec h3 {
+      color: #fff;
+      font-size: 32px;
+      padding: 15px;
+      font-weight: 400;
+      line-height: 44px;
+    }
+  
+    .ec-form-section .form-sec .f-form .fe-sec {
+      padding: 12px 20px;
+    }
+  }
+
+  @media (min-width: 1200px) and (max-width: 1400px) {
+
+
+    .first-pg .first-area .btn {
+      display: inline-block;
+      padding: 14px 40px;
+      margin-bottom: 0;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 1.42857143;
+      text-align: center;
+      border-radius: 0px;
+      text-decoration: none;
+      width: 20%;
+      margin: auto;
+    }
+  
+    .session .session-area .session-left img {
+      width: 100%;
+    }
+  
+    .session .session-area .session-right {
+      padding: 0px 16px;
+    }
+
+
+    .novac .novac-area {
+      display: block;
+    }
+  
+    .novac .novac-area .novac-right {
+      display: flex;
+      margin-top: 50px;
+      justify-content: center;
+    }
+  
+  }
+  
