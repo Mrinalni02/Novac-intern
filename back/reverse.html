@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php  
+$arr= array(1, 2, 3, 4, 5); 
+$revArray=array();
+$count=count($arr);
+
+for($i=$count-1;$i>=0;--$i){
+$revArray[]=$arr[$i];
+}
+
+$modifiedArray=array();
+foreach($revArray as $x => $y){
+if($x%2==0){
+$modifiedArray[]=$y;
+}
+}
+
+echo "Original Array: ";
+foreach($arr as $y){
+echo $y." ";
+}
+echo "<br>";
+
+echo "Modified Array: ";
+foreach($modifiedArray as $y){
+echo $y." ";
+}
+?>  
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php  
+$arr= array(38,34,87,23,18);
+$revArray= (array_reverse($arr));
+print_r($revArray);
+echo "<br>";
+for($i=0;$i<count($revArray);$i++)
+{
+if(($i%2==0))
+{
+$newarray[]=$revArray[$i];
+}
+}
+print_r($newarray);
+
+
+
+
+
+?>  
+</body>
+</html>

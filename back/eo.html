@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+$numbers=array(1,2,3,4,5);
+$evenNumbers=array();
+$oddNumbers=array();
+
+foreach($numbers as $num){
+switch($num % 2){
+case 0:
+$evenNumbers[]=$num;
+break;
+
+case 1:
+$oddNumbers[]=$num;
+break;
+}
+}
+echo "Even Numbers: ";
+foreach($evenNumbers as $x){
+echo $x . " ";
+}
+echo "<br>";
+
+echo "OddNumbers: ";
+foreach($oddNumbers as $y){
+echo $y . " ";
+}
+?>
+ 
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php  
+$numbers=array(1,2,3,4,5);
+$evenNumbers=array();
+$oddNumbers=array();
+
+
+for($i=0;$i<=count($numbers);$i++){
+$num=$numbers[$i];
+switch($num % 2){
+case 0:
+$evenNumbers[]=$num;
+break;
+
+case 1:
+$oddNumbers[]=$num;
+break;
+}
+}
+echo "Even Numbers: ";
+foreach($evenNumbers as $x){
+echo $x . " ";
+}
+echo "<br>";
+
+echo "OddNumbers: ";
+foreach($oddNumbers as $y){
+echo $y . " ";
+}
+?>  
+
+</body>
+</html>
